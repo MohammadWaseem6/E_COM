@@ -73,8 +73,8 @@ model Orders {
   items           OrderItem[]
 }
 
-model OrderItem {  // Renamed from OrderiItem
-  id       String  @id @default(cuid()) @map("_id")
+model OrderItem {  
+    id       String  @id @default(cuid()) @map("_id")
   orderId  String
   order    Orders  @relation(fields: [orderId], references: [id])  // Fixed reference to Orders
   name     String
