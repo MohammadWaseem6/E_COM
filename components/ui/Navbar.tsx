@@ -14,7 +14,6 @@ import {
 } from 'react-icons/ai'
 import { FiMenu } from 'react-icons/fi'
 import { MdClose } from 'react-icons/md'
-// import { TbBracketsAngle } from 'react-icons/tb'
 import { IoShirtOutline } from 'react-icons/io5'
 
 const Navbar = () => {
